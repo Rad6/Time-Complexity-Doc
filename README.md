@@ -120,7 +120,8 @@ if
 و
 else
 ها برابر با ماکسیمم هزینه‌ی بدنه‌ها است. مثال:
-<div dir="ltr">
+<span dir="ltr">
+
 ```pseudocode
 if condition:
 	body1 // T1
@@ -128,7 +129,7 @@ else:
 	body2 // T2
 // All together: O(max(T1, T2))
 ```
-</div>
+</span>
 
 <hr>
 
