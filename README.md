@@ -167,7 +167,7 @@ else:
 مرتبه‌ی زمانی قطعه‌کد زیر را محاسبه کنید:
 <span dir="ltr">
 
-```java
+```pseudocode
 int f(n) {
 	int s = 0;
 	for(int i=n; i>0; i--);
