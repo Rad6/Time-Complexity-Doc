@@ -165,7 +165,8 @@ else:
 
 ### - نمونه سوال 2
 مرتبه‌ی زمانی قطعه‌کد زیر را محاسبه کنید:
-<span dir="ltr">
+
+<div dir="ltr">
 
 ```pseudocode
 int f(n) {
@@ -177,7 +178,7 @@ int f(n) {
 	return s;
 }
 ```
-</span>
+</div>
 
 <details>
 <summary>نمایش پاسخ</summary>
