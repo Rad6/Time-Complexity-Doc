@@ -142,18 +142,18 @@ else:
 <img src="https://render.githubusercontent.com/render/math?math=a_i" />
 اعدادی ثابت هستند.
 
-<img src="https://render.githubusercontent.com/render/math?math=f(n) = \sum_{i=0}^k a_in^i = a_0n^0 + a_1n^1 + \dots + a_kn^k" />
+<img src="https://latex.codecogs.com/gif.latex?f(n)=\sum_{i=0}^{k}a_in^i=a_0n^0+a_1n^1+\dots+a_kn^k" />
 
 <details>
 <summary>نمایش پاسخ</summary>
 <br>
-<img src="https://render.githubusercontent.com/render/math?math=f(n) = a_0n^0 + a_1n^1 + \dots + a_kn^k \leq a_0n^k + a_1n^k + \dots + a_kn^k" />
+<img src="https://latex.codecogs.com/gif.latex?f(n)=a_0n^0+a_1n^1+\dots+a_kn^{k}\leq{a_{0}n^k+a_{1}n^k+\dots+a_kn^k" />
 <br>
-<img src="https://render.githubusercontent.com/render/math?math=\Rightarrow f(n) \leq (a_0+a_1+\dots+a_k)n^k" />
+<img src="https://latex.codecogs.com/gif.latex?\Rightarrow{f(n)}\leq(a_0+a_1+\dots+a_k)n^k" />
 <br>
-<img src="https://render.githubusercontent.com/render/math?math=\Rightarrow \forall n>0: f(n) \leq cn^k, \quad c = \sum_{i=0}^ka_i" />
+<img src="https://latex.codecogs.com/gif.latex?\Rightarrow{\forall}n>0:f(n)\leq{cn^k},\quad{c}=\sum_{i=0}^ka_i" />
 <br>
-<img src="https://render.githubusercontent.com/render/math?math=\Rightarrow f(n) \in O(n^k)" />
+<img src="https://latex.codecogs.com/gif.latex?\Rightarrow{f(n)}\in{O(n^k)}" />
 </details>
 
 <br>
