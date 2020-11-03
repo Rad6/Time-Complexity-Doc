@@ -1,3 +1,5 @@
+<div dir="rtl>
+	  
 # Time Complexity - پیچیدگی زمانی
 
 هنگامی که برنامه‌ای می‌نویسیم و یا الگوریتمی طراحی می‌کنیم، از مهم‌ترین مسائلی که باید به آن توجه کنیم زمان اجرا است. (به طور مشابه تمام توضیحات زیر برای حافظه‌ی مصرفی نیز صادق است)
@@ -31,9 +33,9 @@ O(g(n)) = { f(n): \text{there exist positive constants c and } n_0
             such that 0 ≤ f(n) ≤ cg(n) for all n ≥ <sub>0</sub> }
 	</b>
 </div>
-<div align="center">
+<p align="center">
 	<img width="320" height="320" src="images/big0.png">
-</div>
+</p>
 
 ##### نوتیشن Big Omega( <img src="https://latex.codecogs.com/gif.latex?\Omega" /> ):
 حد پایین زمان اجرای یک الگوریتم را مشخص می‌کند. در واقع مشخص کننده پیچیدگی زمانی بهترین حالت 
@@ -51,9 +53,9 @@ O(g(n)) = { f(n): \text{there exist positive constants c and } n_0
             such that 0 ≤ cg(n) ≤ f(n) for all n ≥ <sub>0</sub> }
 	</b>
 </div>
-<div align="center">
+<p align="center">
 	<img width="320" height="320" src="images/omega.png">
-</div>
+</p>
 
 ##### نوتیشن Big Theta( <img src="https://latex.codecogs.com/gif.latex?\Theta" /> ):
 حدود متوسط زمان اجرای یک الگوریتم را مشخص می‌کند. در واقع مشخص کننده پیچیدگی زمانی حالت متوسط
@@ -71,9 +73,9 @@ O(g(n)) = { f(n): \text{there exist positive constants c and } n_0
             such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ <sub>0</sub> }
 	</b>
 </div>
-<div align="center">
+<p align="center">
 	<img width="320" height="320" src="images/theta.png">
-</div>
+</p>
 
 از میان این ۳، معمولا
 Big Oh (O)
@@ -118,6 +120,7 @@ if
 و
 else
 ها برابر با ماکسیمم هزینه‌ی بدنه‌ها است. مثال:
+<div dir="ltr">
 ```pseudocode
 if condition:
 	body1 // T1
@@ -125,30 +128,31 @@ else:
 	body2 // T2
 // All together: O(max(T1, T2))
 ```
+</div>
 
 <hr>
 
 ### - نمونه سوال 1
 ثابت کنید تابع 
-<img src="https://latex.codecogs.com/gif.latex?f(n)" />
+<img src="https://render.githubusercontent.com/render/math?math=f(n)" />
 متعلق به 
-<img src="https://latex.codecogs.com/gif.latex?O(n^k)" />
+<img src="https://render.githubusercontent.com/render/math?math=O(n^k)" />
 است (توابع چندجمله‌ای، از مرتبه‌ی پرتوان‌ترین جمله هستند). تمام ضرایب 
-<img src="https://latex.codecogs.com/gif.latex?a_i" />
+<img src="https://render.githubusercontent.com/render/math?math=a_i" />
 اعدادی ثابت هستند.
 
-<img src="https://latex.codecogs.com/gif.latex?f(n) = \sum_{i=0}^k a_in^i = a_0n^0 + a_1n^1 + \dots + a_kn^k" />
+<img src="https://render.githubusercontent.com/render/math?math=f(n) = \sum_{i=0}^k a_in^i = a_0n^0 + a_1n^1 + \dots + a_kn^k" />
 
 <details>
 <summary>نمایش پاسخ</summary>
 <br>
-<img src="https://latex.codecogs.com/gif.latex?f(n) = a_0n^0 + a_1n^1 + \dots + a_kn^k \leq a_0n^k + a_1n^k + \dots + a_kn^k" />
+<img src="https://render.githubusercontent.com/render/math?math=f(n) = a_0n^0 + a_1n^1 + \dots + a_kn^k \leq a_0n^k + a_1n^k + \dots + a_kn^k" />
 <br>
-<img src="https://latex.codecogs.com/gif.latex?\Rightarrow f(n) \leq (a_0+a_1+\dots+a_k)n^k" />
+<img src="https://render.githubusercontent.com/render/math?math=\Rightarrow f(n) \leq (a_0+a_1+\dots+a_k)n^k" />
 <br>
-<img src="https://latex.codecogs.com/gif.latex?\Rightarrow \forall n>0: f(n) \leq cn^k, \quad c = \sum_{i=0}^ka_i" />
+<img src="https://render.githubusercontent.com/render/math?math=\Rightarrow \forall n>0: f(n) \leq cn^k, \quad c = \sum_{i=0}^ka_i" />
 <br>
-<img src="https://latex.codecogs.com/gif.latex?\Rightarrow f(n) \in O(n^k)" />
+<img src="https://render.githubusercontent.com/render/math?math=\Rightarrow f(n) \in O(n^k)" />
 </details>
 
 <br>
@@ -156,7 +160,7 @@ else:
 
 ### - نمونه سوال 2
 مرتبه‌ی زمانی قطعه‌کد زیر را محاسبه کنید:
-
+<span dir="ltr">
 ```java
 int f(n) {
 	int s = 0;
@@ -167,31 +171,32 @@ int f(n) {
 	return s;
 }
 ```
+</span>
 
 <details>
 <summary>نمایش پاسخ</summary>
 <br>
 <p align="right" dir="rtl">
 حلقه‌ی 
-<img src="https://latex.codecogs.com/gif.latex?j" />
+<img src="https://render.githubusercontent.com/render/math?math=j" />
 به اندازه‌ی 
-<img src="https://latex.codecogs.com/gif.latex?m=\log_2n" />
+<img src="https://render.githubusercontent.com/render/math?math=m=\log_2n" />
 بار اجرا می‌شود. برای بررسی تعداد دفعات اجرای حلقه‌ی 
-<img src="https://latex.codecogs.com/gif.latex?k" />
+<img src="https://render.githubusercontent.com/render/math?math=k" />
 می‌توان نوشت (تصاعد هندسی):
 </p>
-<img src="https://latex.codecogs.com/gif.latex? N_k = 1 + 2 + 4 + \dots + 2^{m-1} = 2^m - 1 = 2^{\log n} - 1 = n - 1 " />
+<img src="https://render.githubusercontent.com/render/math?math=N_k = 1 + 2 + 4 + \dots + 2^{m-1} = 2^m - 1 = 2^{\log n} - 1 = n - 1 " />
 <p align="right" dir="rtl">
 بنابراین، دو حلقه‌ی 
-<img src="https://latex.codecogs.com/gif.latex?k" />
+<img src="https://render.githubusercontent.com/render/math?math=k" />
 و 
-<img src="https://latex.codecogs.com/gif.latex?j" />
+<img src="https://render.githubusercontent.com/render/math?math=j" />
 با هم از 
-<img src="https://latex.codecogs.com/gif.latex?O(n)" />
+<img src="https://render.githubusercontent.com/render/math?math=O(n)" />
 می‌باشند. با توجه به این که حلقه‌ی اول 
-<img src="https://latex.codecogs.com/gif.latex?n" />
+<img src="https://render.githubusercontent.com/render/math?math=n" />
 بار اجرا می‌شود:
 </p>
-<img src="https://latex.codecogs.com/gif.latex?T(n) = nO(n) = O(n^2)" />
+<img src="https://render.githubusercontent.com/render/math?math=T(n) = nO(n) = O(n^2)" />
 </details>
 <hr>
