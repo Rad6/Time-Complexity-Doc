@@ -185,25 +185,25 @@ int f(n) {
 <br>
 <p align="right" dir="rtl">
 حلقه‌ی 
-<img src="https://render.githubusercontent.com/render/math?math=j" />
+<img src="https://latex.codecogs.com/gif.latex?j" />
 به اندازه‌ی 
-<img src="https://render.githubusercontent.com/render/math?math=m=\log_2n" />
+<img src="https://latex.codecogs.com/gif.latex?\log_2n" />
 بار اجرا می‌شود. برای بررسی تعداد دفعات اجرای حلقه‌ی 
-<img src="https://render.githubusercontent.com/render/math?math=k" />
+<img src="https://latex.codecogs.com/gif.latex?k" />
 می‌توان نوشت (تصاعد هندسی):
 </p>
-<img src="https://render.githubusercontent.com/render/math?math=N_k = 1 + 2 + 4 + \dots + 2^{m-1} = 2^m - 1 = 2^{\log n} - 1 = n - 1 " />
+<img src="https://latex.codecogs.com/gif.latex?N_k=1+2+4+\dots+2^{m-1}=2^m-1=2^{\log{n}}-1=n-1" />
 <p align="right" dir="rtl">
 بنابراین، دو حلقه‌ی 
-<img src="https://render.githubusercontent.com/render/math?math=k" />
+<img src="https://latex.codecogs.com/gif.latex?k" />
 و 
-<img src="https://render.githubusercontent.com/render/math?math=j" />
+<img src="https://latex.codecogs.com/gif.latex?j" />
 با هم از 
-<img src="https://render.githubusercontent.com/render/math?math=O(n)" />
+<img src="https://latex.codecogs.com/gif.latex?O(n)" />
 می‌باشند. با توجه به این که حلقه‌ی اول 
-<img src="https://render.githubusercontent.com/render/math?math=n" />
+<img src="https://latex.codecogs.com/gif.latex?n" />
 بار اجرا می‌شود:
 </p>
-<img src="https://render.githubusercontent.com/render/math?math=T(n) = nO(n) = O(n^2)" />
+<img src="https://latex.codecogs.com/gif.latex?T(n)=nO(n)=O(n^2)" />
 </details>
 <hr>
