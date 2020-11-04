@@ -30,7 +30,7 @@ O(g(n)) = { f(n): \text{there exist positive constants c and } n_0
 <div align="center">
 	<b align="center">
 		O(g(n)) = { f(n): there exist positive constants c and n<sub>0</sub>
-            such that 0 ≤ f(n) ≤ cg(n) for all n ≥ <sub>0</sub> }
+            such that 0 ≤ f(n) ≤ cg(n) for all n ≥ n<sub>0</sub> }
 	</b>
 </div>
 <p align="center">
@@ -50,7 +50,7 @@ O(g(n)) = { f(n): \text{there exist positive constants c and } n_0
 <div align="center">
 	<b align="center">
 		Ω(g(n)) = { f(n): there exist positive constants c and <sub>0</sub> 
-            such that 0 ≤ cg(n) ≤ f(n) for all n ≥ <sub>0</sub> }
+            such that 0 ≤ cg(n) ≤ f(n) for all n ≥ n<sub>0</sub> }
 	</b>
 </div>
 <p align="center">
@@ -70,7 +70,7 @@ O(g(n)) = { f(n): \text{there exist positive constants c and } n_0
 <div align="center">
 	<b align="center">
 		Θ(g(n)) = { f(n): there exist positive constants c1, c2 and <sub>0</sub>
-            such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ <sub>0</sub> }
+            such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ n<sub>0</sub> }
 	</b>
 </div>
 <p align="center">
